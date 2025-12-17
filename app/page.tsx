@@ -1,20 +1,36 @@
+import Section from "@/components/Section";
 import Image from "next/image";
 
-export default function Home() {
+export default function Home () {
   return (
- <section className="min-h-[70vh] flex items-center">
-  <div className="mx-auto max-w-6x1 px-6">
+    <Section className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-    <h1 className="text-5x1 font-serif leading-tight">
-      Ateliê CKaizen
-    </h1>
+      {/* Texto */}
+      <div>
+        <h1 className="text-6xl font-serif leading-tight tracking-tight">
+          Costura Artesanal
+          <br />
+          com propósito 
+        </h1>
 
-    <p className="mt-6 max-w-xl text-lg leading-relaxed">
-      Criação artesanal com propósito, onde cada detalhe
-      representa cuidado, processo e evolução contínua.
-    </p>
+        <p className="mt-8 max-w-xl text-lg leading-relaxed">
+          No Ateliê CKaizen, cada peça é desenvolvida com atenção
+          aos detalhes, respeito ao processo e evolução contínua
+          através da costura manual.
+        </p>
+      </div>
 
-  </div>
- </section>
+      {/* Imagem */}
+      <div className="relative w-full h-[420px]">
+        <Image
+        src="/images/atelie.jpg"
+        alt="Detalhe do trabalho artesanal em costura no Ateliê CKaizen"
+        fill
+        className="object-cover rounded-lg"
+        priority
+        />
+      </div>
+
+    </Section>
   );
 }

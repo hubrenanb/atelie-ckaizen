@@ -1,3 +1,6 @@
+
+import Section from "@/components/Section";
+
 export default function ContatoPage() {
   return (
     <section className="min-h-[70vh] flex items-center">

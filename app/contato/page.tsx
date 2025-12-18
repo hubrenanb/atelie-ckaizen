@@ -1,14 +1,15 @@
 export default function ContatoPage() {
   return (
     <section className="min-h-[70vh] flex items-center">
-      <div className="mx-auto max-w-6xl px-6">
+      <div>
         <h1 className="text-4xl font-serif">
           Contato
         </h1>
 
-        <p className="mt-4 max-w-xl">
-          Entre em contato conosco para encomendas,
-          dúvidas ou parcerias.
+        <p className="mt-6 max-w-xl text-lg leading-relaxed">
+          Entre em contato para solicitar ajustes
+          , encomendas sob medida, tirar dúvidas 
+          ou propor parcerias.
         </p>
       </div>
     </section>

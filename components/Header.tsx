@@ -21,7 +21,7 @@ export default function Header () {
 
                     <Link
                         href="/contato"
-                        className="hover:underline underline-offset-4 bg-[#F5EDE3]"
+                        className="hover:underline underline-offset-4"
                     >
                    Contato      
               </Link>

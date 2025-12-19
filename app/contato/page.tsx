@@ -1,4 +1,3 @@
-
 import Section from "@/components/Section";
 
 export default function ContatoPage() {
@@ -9,7 +8,7 @@ export default function ContatoPage() {
           Contato
         </h1>
 
-           <p className="mt-6 text-lg leading-relaxed">
+        <p className="mt-6 text-lg leading-relaxed">
           Entre em contato para solicitar ajustes, encomendas sob medida,
           tirar dúvidas ou propor parcerias.
         </p>
